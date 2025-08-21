@@ -9,10 +9,10 @@ terraform {
 
 provider "azurerm" {
   features {}
-  subscription_id = "177b7e12-5f03-4f63-bcd1-ed6d1d776bff"
+  subscription_id ="177b7e12-5f03-4f63-bcd1-ed6d1d776bff"
 }
 
-resource "azurerm_resource_group" "rg_Nik " {
+resource "azurerm_resource_group" "rg_Nik" {
   name     = "rg-Nik"
   location = "West Europe"
 }
