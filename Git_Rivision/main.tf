@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "azurerm" {
-   resource_resource_group_name ="rg-nikasi1" 
+   resource_group_name ="rg-nikasi2" 
     storage_account_name = "stgnikasi1"                                 
     container_name       = "containernikasi"                                  
     key                  = "dev.tfstate"                   
